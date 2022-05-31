@@ -8,9 +8,9 @@ module.exports.listarCidades = () => {
         .exec()
 }
 
-module.exports.consultarCidade = id => {
+module.exports.consultarCidade = Id => {
     return Cidade
-        .findOne({id: id}) // ir buscar a ocorrencia que tem este id
+        .findOne({id: Id}) // ir buscar a ocorrencia que tem este id
         .exec()
 }
 

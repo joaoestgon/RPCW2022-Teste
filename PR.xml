@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+    <meta>
+        <titulo>teste 2022</titulo>
+        <data>2022-05-31</data>
+        <autor>
+            <id>PG46535</id>
+            <nome>João Esteves Gonçalves</nome>
+        </autor>
+        <uc>
+            <sigla>RPCW2022</sigla>
+            <nome>Representação e Processamento de Conhecimento na Web</nome>
+        </uc>
+    </meta>
+    <resumo>
+        <dados>
+            O dataset foi separado em 2 ficheiros:
+            <p>ligacoes.json </p>
+            <p>cidades.json </p>
+            Foram também removidos acentos e outros caracteres
+            dos objetos json de modo a facilitar a sua utilização.
+        </dados>
+        <bd>
+            As Base de Dados foram construídos com os seguintes comandos:
+            <p> mongoimport --jsonArray -d MAPA2022 -c ligacoes .\ligacoes.json </p>
+            <p> mongoimport --jsonArray -d MAPA2022 -c cidades .\cidades.json </p>
+
+            Que geraram 2 coleções (ligacoes e cidades) que podem ser consultadas no mongo com "show collections"
+        </bd>
+        <exec>
+            node
+        </exec>
+    </resumo>
+    <texto>Abaixo encontram-se as repostas à questão 1 do Exercício 2</texto>
+    <resultados>
+        <resposta1>
+            <texto> </texto>
+        </resposta1>
+        <resposta2>
+            <texto> </texto>
+        </resposta2>
+        <resposta3>
+            <texto> </texto>
+        </resposta3>
+        <resposta4>
+            <texto> </texto>
+        </resposta4>
+    </resultados>
+</doc>
