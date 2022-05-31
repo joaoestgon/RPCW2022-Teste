@@ -21,7 +21,7 @@
             dos objetos json de modo a facilitar a sua utilização.
         </dados>
         <bd>
-            As Base de Dados foram construídos com os seguintes comandos:
+            A Base de Dados foi construída com os seguintes comandos:
             <p> mongoimport --jsonArray -d MAPA2022 -c ligacoes .\ligacoes.json </p>
             <p> mongoimport --jsonArray -d MAPA2022 -c cidades .\cidades.json </p>
 
@@ -34,16 +34,16 @@
     <texto>Abaixo encontram-se as repostas à questão 1 do Exercício 2</texto>
     <resultados>
         <resposta1>
-            <texto> </texto>
+            <texto> 3 Processos </texto>
         </resposta1>
         <resposta2>
-            <texto> </texto>
+            <texto> 647 Processos</texto>
         </resposta2>
         <resposta3>
-            <texto> </texto>
+            <texto> 7 Processos</texto>
         </resposta3>
         <resposta4>
-            <texto> </texto>
+            <texto> 24 Processos</texto>
         </resposta4>
     </resultados>
 </doc>
